@@ -1,0 +1,15 @@
+.git
+.github
+**/__pycache__
+**/*.pyc
+.venv
+venv
+data
+**/node_modules
+app/frontend/dist
+segmentation/checkpoints/*.pth
+**/*.avi
+**/*.mp4
+tests
+*.md
+!README.md

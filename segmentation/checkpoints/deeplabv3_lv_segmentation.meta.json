@@ -1,0 +1,8 @@
+{
+  "name": "DeepLabV3-ResNet50 (LV segmentation)",
+  "trained_on": "synthetic EchoNet-schema data",
+  "real_data": false,
+  "test_dice": 0.8618,
+  "test_iou": 0.7607,
+  "note": "Pipeline-verification model. Set real_data to true only after retraining on the real EchoNet-Dynamic dataset."
+}

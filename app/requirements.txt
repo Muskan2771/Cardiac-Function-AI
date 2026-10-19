@@ -1,0 +1,9 @@
+# Runtime dependencies of the deployed service (backend + both ML modules).
+# Upper bounds avoid surprise major-version breaks on a fresh build.
+fastapi>=0.110,<1.0
+uvicorn[standard]>=0.29,<1.0
+python-multipart>=0.0.9
+torch>=2.2,<3.0
+torchvision>=0.17,<1.0
+opencv-python-headless>=4.9,<5.0
+numpy>=1.26,<3.0

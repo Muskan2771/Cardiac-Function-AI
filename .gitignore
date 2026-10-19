@@ -1,0 +1,29 @@
+# data (EchoNet-Dynamic is licensed for research use - never commit it)
+data/raw/
+data/processed/
+*.avi
+*.mp4
+*.mov
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# secrets / local config
+.env
+.env.local
+
+# model weights are large: distribute via Hugging Face Hub / GitHub Releases
+segmentation/checkpoints/*.pth
+segmentation/checkpoints/*.part
+
+# frontend
+app/frontend/node_modules/
+app/frontend/dist/
+
+# generated outputs
+segmentation/sanity_check_outputs/
